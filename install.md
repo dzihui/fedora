@@ -41,6 +41,10 @@ dnf install -y openssl-devel
 dnf install -y dkms
 dnf install -y elfutils-libelf-devel
 dnf install -y autoconf
+// for openocd
+dnf install libhidapi-dev -y
+dnf install libusb++-dev -y
+dnf install telnet -y
 ```
 
 ### 2. 配置vim
